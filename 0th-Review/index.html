@@ -5,8 +5,19 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Integration of service management with assigned tasks using issue tracking System</title>
-    <link href="css/impress-demo.css" rel="stylesheet" />
+    <title>INTEGRATION OF SERVICE MANAGEMENT WITH ASSIGNED TASKS USING Customer Interaction System</title>
+    <link rel="stylesheet" href="css/impress-demo.css" >
+    <style>
+        body{
+            background-image:url('images/bg.jpg');
+        }
+        #title{
+            text-align:center;
+            text-transform:capitalize;
+
+        }
+        ul {list-style-type: disc;}
+    </style>
 </head>
 <body>
 <!--
@@ -21,13 +32,13 @@
     will also get fallback styles.
     
 -->
-<div id="impress" class="impress-not-supported">
-
-    <div class="fallback-message">
-        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
-        <p>For the best experience please use the latest <b>Chrome</b> or <b>Safari</b> browser. Firefox 10 (to be released soon) will also handle it.</p>
+<div id="impress" >
+    <div id="title" class="step " data-x="0" data-y="0" data-scale="20" >
+        <strong>integration of service management with assinged tasks using 
+        <br>Customer Interaction System</strong>
     </div>
 
+   
     <!--
         Here is where interesting thing start to happen.
         
@@ -43,7 +54,40 @@
         
         It will not be rotated or scaled.
     -->
-    
+    <div id="exsisting-system" class="step" data-x="9000" data-y="1500" data-z="" 
+        data-rotate-x=""  data-rotate-y="" data-rotate-z="" data-rotate="90" 
+        data-scale="5" >
+        <strong>Existing System</strong>
+        <ul>
+            <li>Lack of Prioratization</li>
+            <li>No Catagorization</li>
+            <li>No Immidiate Solution</li>
+            <li>Manual Ticket redirection to departments</li>
+            <li>Form modification is Difficult</li>
+        </ul>
+    </div>
+    <div id="proposed-system" class="step " data-x="-9000" data-y="500" data-z="" 
+        data-rotate-x=""  data-rotate-y="" data-rotate-z="" data-rotate="-90" 
+        data-scale="5" >
+        <strong>Proposed System</strong>
+        <ul>
+            <li>Ticket Prioratization</li>
+            <li>Catagorisation of Ticket</li>
+            <li>Plausible Immidiate solutions</li>
+            <li>Automation of ticket redirection to departments</li>
+            <li>Live Customization of Forms</li>
+        </ul>
+    </div>
+    <div id="technical-features" class="step " data-x="2000" data-y="2500" data-z="" 
+        data-rotate-x="-60"  data-rotate-y="" data-rotate-z="" data-rotate="" 
+        data-scale="10" >
+        <strong>Proposed Modules</strong>
+        <ul>
+            <li>Authorisation</li>
+            <li>Role Management</li>
+            <li>
+        </ul>
+    </div>
     <!--
         So to make a summary of all the possible attributes used to position presentation steps, we have:
         
@@ -54,7 +98,7 @@
             are exactly the same;
         * `data-scale` -- defines the scale of step element; default value is 1
     -->
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="25">
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="50">
         
     </div>
 
@@ -72,9 +116,6 @@
     
     This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation.
 -->
-<div class="hint">
-    <p>Use a spacebar or arrow keys to navigate</p>
-</div>
 
 
 <!--
