@@ -1,0 +1,16 @@
+#!/bin/bash
+
+fileName=$1
+
+echo "<html>" > $fileName
+echo "<body>" >> $fileName
+    echo "<ul>" >> $fileName
+        for f in *.*
+        do
+            echo "<li>" >> $fileName
+                echo "<a href=\"$f\">$f</a>" >> $fileName
+            echo "</li>" >> $fileName
+        done
+    echo "</ul>" >> $fileName
+echo "</body>" >> $fileName
+echo "</html>" >> $fileName
