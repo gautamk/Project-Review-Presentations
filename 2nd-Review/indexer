@@ -1,6 +1,6 @@
 #!/bin/bash
 
-fileName=$1
+fileName=index.html
 
 echo "<html>" > $fileName
 echo "<body>" >> $fileName
